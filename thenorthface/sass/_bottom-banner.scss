@@ -1,0 +1,52 @@
+.bottom-banner{
+    width: 1170px;
+    background: #ccc;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.bottom-banner img{
+    width: 1170px;
+}
+.bottom-banner .lt{
+    position: absolute;
+    top:40% ;
+    left: 90px;
+    font-size: 100px;
+}
+.bottom-banner .gt{
+    position: absolute;
+    top:40% ;
+    right: 90px;
+    font-size: 100px;
+}
+.bottom-banner a{
+    color: #fff;
+}
+.imglist{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.imglist li{
+    float: left;
+}
+.bunlist{
+    position: absolute;
+    left: 560px;
+    bottom: 10px;
+}
+.bunlist li{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    text-indent: -99999px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius:50% ;
+    border: 1px solid #fff;
+}
+.bunlist li.active{
+    background: #fff;
+}

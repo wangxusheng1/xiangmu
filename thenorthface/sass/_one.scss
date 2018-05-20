@@ -1,0 +1,19 @@
+.newsbar{
+    background: #efefef url(../images/notice.png) no-repeat 100px 5px;
+    text-align: left;
+    height: 32px;
+    overflow: hidden;
+    background-size: 23px;
+}
+.newsbar a{
+    padding-left: 135px;
+    line-height: 34px;
+    height: 32px;
+    overflow: hidden;
+    display: inline-block;
+    color: #5d5d5d;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    white-space: nowrap;
+}

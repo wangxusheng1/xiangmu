@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/other.css"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	</head>
+	<body>
+		<div class="content">
+			<div class="top clear">
+				<div class="logo left">
+					<a href="/">
+						<img src="images/tnf-logo.jpg"/>
+					</a>
+				</div>
+				<div class="logo-name left">欢迎登陆</div>
+			</div>
+			<div class="middle">
+				<div class="content-layout">
+					<div class="login-box-wrap">
+						<div class="login-box">
+							<div id="account">
+								<div class="title">
+									账号登录
+								</div>
+								<div id="error"></div>
+								<form action="php/login.php" method="post" onsubmit="return false">
+									<ul class="input-box in-box">
+										<li class="user-name">
+											<input type="text"  id="username" name="username" placeholder="手机号" data-caution="请填写登录帐号" autocomplete="off"/>
+											<span></span>
+										</li>
+										<li class="user-pwd">
+											<input type="password"  id="password" name="password" placeholder="登录密码" data-caution="请填写密码"/>
+											<span></span>
+										</li>
+										<li class="remember-box clear">
+											<a href="#" class="pull-right">忘记密码？</a>
+										</li>
+										<li class="submit-box">
+											<button type="submit" id="btn" name="submit" class="but">
+												<span>立即登录</span>
+											</button>
+										</li>
+									</ul>
+								</form>
+							</div>
+							<ul class="logintab">
+								<li>
+									<a href="register.html">快速登录/注册</a>
+								</li>
+								<li>
+									<a href="#">账号登录</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="login-footer">
+				    COPYRIGHT BY www.thenorthface.com.cn , ALL RIGHTS RESERVED . 威富服饰（中国）有限公司上海分司 沪ICP备08104484号-6 沪公网安备 31010602000021号
+				</div>
+			</div>		
+		</div>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+.banner{
+    width: 1423px;
+    height: 467px;
+    background: #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.banner img{
+    width: 1423px;
+}
+.banner .lt{
+    position: absolute;
+    top:40% ;
+    left: 90px;
+    font-size: 100px;
+}
+.banner .gt{
+    position: absolute;
+    top: 40%;
+    right: 90px;
+    font-size: 100px;
+}
+.banner a{
+    color: #fff;
+}
+.piclist{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.piclist li {
+    float: left;
+}
+.btnlist {
+    position: absolute;
+    left: 650px;
+    bottom: 10px;
+}
+.btnlist li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    text-indent: -99999px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius:50% ;
+    border: 1px solid #fff;
+}
+.btnlist li.active {
+    background: #fff;
+}
